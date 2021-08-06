@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../guessinggame.js" defer> </script>
+    <title>Document</title>
+<link rel="stylesheet" href="./guessinggame.css"> </link>
+</head>
+<body>
+<main class="card">
+
+    <select id="sel"> 
+<option value="easy"> 
+Easy 
+</option>
+<option value="medium">
+    medium
+</option>
+<option value="difficult">
+    Difficult
+</option>
+</select>
+<button id="start"> Start </button>
+<div id="gamepanel" class="hidden">
+    <input type="number" id="guessinput">   
+<button id="guessbtn"> Guess! </button>
+<p id="feedback">
+    Guess a number between 1 and 100.
+</p>
+</div>
+</main>
+
+</body>
+</html>
